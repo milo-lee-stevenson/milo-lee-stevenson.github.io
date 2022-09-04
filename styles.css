@@ -1,3 +1,18 @@
 body {
     background-color: crimson;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.interests {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.two-cell {
+    display: grid;
+    grid-template-columns: auto auto;
+}
