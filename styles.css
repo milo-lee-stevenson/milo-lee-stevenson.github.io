@@ -2,17 +2,18 @@ body {
     background-color: crimson;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: auto auto;
+.apple {
+    position: absolute;
+    top: -200px;
 }
 
-.interests {
-    display: grid;
-    grid-template-columns: auto;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
 }
 
-.two-cell {
-    display: grid;
-    grid-template-columns: auto auto;
+.flex-item {
+    display: flex;
+    justify-content: center;
 }
